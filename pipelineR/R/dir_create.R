@@ -1,6 +1,6 @@
 #' create folders for data analytics
-#' @aliases NULL hello-package
-#' @useDynLib hello, .registration = TRUE
+#' @aliases NULL pipelineR
+#' @useDynLib pipelineR, .registration = TRUE
 #' @importFrom Rcpp sourceCpp
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data

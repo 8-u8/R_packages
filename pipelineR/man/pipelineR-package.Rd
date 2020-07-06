@@ -2,7 +2,7 @@
 % Please edit documentation in R/dir_create.R
 \docType{package}
 \name{pipelineR-package}
-\alias{hello-package}
+\alias{pipelineR}
 \title{create folders for data analytics}
 \description{
 What the package does (one paragraph).
