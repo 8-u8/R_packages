@@ -5,6 +5,7 @@ Version: 0.1.0
 Author: Takafumi ITO
 Maintainer: Takafumi ITO
 Description: The pipeline of basic statistical modeling
+  and output
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
