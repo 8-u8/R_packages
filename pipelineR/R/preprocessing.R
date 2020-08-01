@@ -1,4 +1,4 @@
-#' create folders for data analytics
+#' auto preprocessing
 #' @aliases NULL pipelineR
 #' @useDynLib pipelineR, .registration = TRUE
 #' @importFrom Rcpp sourceCpp
@@ -9,4 +9,8 @@
 #' @export preprocessing
 "_PACKAGE"
 
-print("<- to be continued...")
+preprocessing <- function(DataFrame,
+                          how = "scale"){
+  print("<- to be continued...")
+}
+
