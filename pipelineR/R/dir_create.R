@@ -1,11 +1,11 @@
 #' create folders for data analytics
 #' @aliases NULL pipelineR
 #' @useDynLib pipelineR, .registration = TRUE
-#' @importFrom Rcpp sourceCpp
-#' @importFrom magrittr %>%
 #' @importFrom rlang .data
 #' @keywords internal
 #' @export dir_create
+#' @examples
+#' dir_create()
 "_PACKAGE"
 
 dir_create <- function(){

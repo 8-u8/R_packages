@@ -4,13 +4,12 @@
 #' @importFrom Rcpp sourceCpp
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
-#' @importFrom dummies
+#' @import dummies
 #' @keywords internal
 #' @export preprocessing
 "_PACKAGE"
 
 preprocessing <- function(DataFrame,
                           how = "scale"){
-  print("<- to be continued...")
 }
 
