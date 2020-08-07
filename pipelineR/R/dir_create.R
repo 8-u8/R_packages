@@ -9,7 +9,7 @@
 "_PACKAGE"
 
 dir_create <- function(){
-  dir.create("./01_imput")
+  dir.create("./01_input")
   dir.create("./02_middle")
   dir.create("./03_output")
   dir.create("./04_source")
