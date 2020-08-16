@@ -6,6 +6,10 @@
 \alias{pipelineR-package}
 \title{create folders for data analytics}
 \arguments{
+\item{R_proj}{make .Rproj file. default is TRUE}
+
+\item{dir}{if define working directory, set as character. default is NULL}
+
 \item{Data}{Data to use the model}
 
 \item{target}{dependent variable.}
@@ -20,14 +24,11 @@
 model
 }
 \description{
-More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+The pipeline of basic statistical modeling and output
 
-More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+The pipeline of basic statistical modeling and output
 
-More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+The pipeline of basic statistical modeling and output
 }
 \examples{
 dir_create()
