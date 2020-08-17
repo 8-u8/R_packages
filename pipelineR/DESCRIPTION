@@ -15,5 +15,4 @@ Imports:
     rlang,
     usethis,
     dummies,
-    stats,
     utils

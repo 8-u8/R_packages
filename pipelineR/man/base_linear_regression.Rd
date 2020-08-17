@@ -21,7 +21,7 @@ base_linear_regression(
 
 \item{id_name}{if Data has ID columns, select it...、}
 
-\item{use_features}{}
+\item{use_features}{a character vector to use as features}
 }
 \value{
 model

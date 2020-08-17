@@ -4,10 +4,9 @@
 #' @param target dependent variable.
 #' @param model_type  which model to use: "lm" or "logistic" or "poisson"
 #' @param id_name if Data has ID columns, select it...、
-#' @param use_features
-#'
+#' @param use_features a character vector to use as features
+#' @importFrom stats lm glm binomial
 #' @import dplyr
-#' @import stats
 #' @return model
 #' @export
 #'
