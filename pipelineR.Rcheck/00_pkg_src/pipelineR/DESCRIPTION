@@ -11,4 +11,4 @@ LazyData: true
 RoxygenNote: 7.1.1
 Imports: magrittr, dplyr, rlang, usethis, dummies, utils
 NeedsCompilation: no
-Packaged: 2020-08-17 02:14:36 UTC; t0_u0
+Packaged: 2020-08-17 03:05:31 UTC; t0_u0
