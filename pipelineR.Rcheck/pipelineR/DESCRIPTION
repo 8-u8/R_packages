@@ -8,12 +8,8 @@ Description: The pipeline of basic statistical modeling and output
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
-Imports: 
-    magrittr,
-    dplyr,
-    rlang,
-    usethis,
-    dummies,
-    stats,
-    utils
+RoxygenNote: 7.1.0
+Imports: magrittr, dplyr, rlang, usethis, dummies, stats, utils
+NeedsCompilation: no
+Packaged: 2020-08-17 01:44:06 UTC; t0_u0
+Built: R 4.0.2; ; 2020-08-17 01:44:14 UTC; unix

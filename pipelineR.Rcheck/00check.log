@@ -1,0 +1,85 @@
+* using log directory ‘/home/t0_u0/Desktop/R_packages/pipelineR.Rcheck’
+* using R version 4.0.2 (2020-06-22)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using options ‘--no-manual --as-cran’
+* checking for file ‘pipelineR/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘pipelineR’ version ‘0.0-1’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking serialization versions ... OK
+* checking whether package ‘pipelineR’ can be installed ... WARNING
+Found the following significant warnings:
+  Warning: replacing previous import ‘magrittr::set_names’ by ‘rlang::set_names’ when loading ‘pipelineR’
+  Warning: replacing previous import ‘dplyr::filter’ by ‘stats::filter’ when loading ‘pipelineR’
+  Warning: replacing previous import ‘dplyr::lag’ by ‘stats::lag’ when loading ‘pipelineR’
+See ‘/home/t0_u0/Desktop/R_packages/pipelineR.Rcheck/00install.out’ for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+* checking top-level files ... NOTE
+Non-standard files/directories found at top level:
+  ‘LICENSE.md’ ‘test’
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'::' or ':::' import not declared from: ‘dpyr’
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘base_linear_regression’ ‘dir_create’ ‘preprocessing’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... ERROR
+Running examples in ‘pipelineR-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: pipelineR-package
+> ### Title: create folders for data analytics
+> ### Aliases: pipelineR pipelineR-package
+> ### Keywords: internal
+> 
+> ### ** Examples
+> 
+> dir_create()
+New project [34m'R_project_2020-08-17'[39m is nested inside an existing project [34m'./'[39m, which is rarely a good idea.
+If this is unexpected, the here package has a function, [90m`here::dr_here()`[39m that reveals why [34m'./'[39m is regarded as a project.
+Error: User input required, but session is not interactive.
+Query: Do you want to create anyway?
+Execution halted
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 1 ERROR, 3 WARNINGs, 2 NOTEs
