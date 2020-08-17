@@ -19,7 +19,7 @@ base_linear_regression(
 
 \item{model_type}{which model to use: "lm" or "logistic" or "poisson"}
 
-\item{id_name}{if Data has ID columns, select it...、}
+\item{id_name}{if Data has ID columns, select it...}
 
 \item{use_features}{a character vector to use as features}
 }
