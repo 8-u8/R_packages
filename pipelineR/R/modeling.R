@@ -11,7 +11,6 @@
 #' @return model
 #' @export
 #'
-"_PACKAGE"
 
 base_linear_regression <- function(Data, target, model_type, id_name=NULL, use_features=NULL){
   ### error processing
@@ -26,7 +25,7 @@ base_linear_regression <- function(Data, target, model_type, id_name=NULL, use_f
   }
   if(!is.null(use_features)){
     local_usedata <- local_usedata %>%
-      dpyr::select({{use_features}})
+      dplyr::select({{use_features}})
   }
   y <- Data[,target]
   ### model

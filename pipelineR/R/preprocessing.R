@@ -4,9 +4,7 @@
 #' @importFrom rlang .data
 #' @import dummies
 #' @keywords internal
-#' @export preprocessing
-"_PACKAGE"
-
+#' @export
 preprocessing <- function(DataFrame,
                           how = "scale"){
 }

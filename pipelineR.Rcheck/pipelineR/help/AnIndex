@@ -1,2 +1,3 @@
-pipelineR-package	pipelineR-package
-pipelineR	pipelineR-package
+base_linear_regression	base_linear_regression
+pipelineR	dir_create
+pipelineR	preprocessing

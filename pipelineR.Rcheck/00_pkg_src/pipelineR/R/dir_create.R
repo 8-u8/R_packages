@@ -1,14 +1,13 @@
 #' create folders for data analytics
 #' @aliases NULL pipelineR
 #' @importFrom rlang .data
-#' @importFrom("utils", "menu")
+#' @importFrom utils menu
 #' @import usethis
 #' @keywords internal
 #' @param R_proj make .Rproj file. default is TRUE
 #' @param dir if define working directory, set as character. default is NULL
 #' @export
 #' @examples
-#' dir_create()
 
 dir_create <- function(R_proj = TRUE, dir = NULL){
   ### todo
