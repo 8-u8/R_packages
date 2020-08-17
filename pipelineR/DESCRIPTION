@@ -1,7 +1,7 @@
 Package: pipelineR
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.0-1
+Version: 0.0-3
 Author: Takafumi ITO <itotaka523@gmail.com>
 Maintainer: Takafumi ITO <itotaka523@gmail.com>
 Description: The pipeline of basic statistical modeling and output

@@ -1,7 +1,7 @@
 Package: pipelineR
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.0-1
+Version: 0.0-3
 Author: Takafumi ITO <itotaka523@gmail.com>
 Maintainer: Takafumi ITO <itotaka523@gmail.com>
 Description: The pipeline of basic statistical modeling and output
@@ -11,4 +11,4 @@ LazyData: true
 RoxygenNote: 7.1.1
 Imports: magrittr, dplyr, rlang, usethis, dummies, utils
 NeedsCompilation: no
-Packaged: 2020-08-17 02:08:47 UTC; t0_u0
+Packaged: 2020-08-17 02:14:36 UTC; t0_u0
