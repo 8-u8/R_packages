@@ -30,7 +30,7 @@ base_linear_regression <- function(Data, target, model_type, id_name=NULL, use_f
   ### model
 
   if(model_type == "lm"){
-    model <- lm(y ~ local_usedata)
+    model <- lm(y ~ ., data = local_usedata)
   }
   if(model_type == "logstic"){
     ### chk target summary
@@ -40,14 +40,14 @@ base_linear_regression <- function(Data, target, model_type, id_name=NULL, use_f
       stop("there are not 0/1 values. logistic regression was not executed.")
     }
     ###
-    model <- glm(y~local_usedata, family=binomial("logit"))
+    model <- glm(y~., data = local_usedata, family=binomial("logit"))
   }
   if(model_type == "poisson")
     ### chk target summary
     if(min(y)<0){
       stop("this target is not positive value. poisson regression was not executed")
     }
-    model <- glm(y~local_usedata, family = "poisson")
+    model <- glm(y~., data = local_usedata, family = "poisson")
 
     ### output
     return(model)
