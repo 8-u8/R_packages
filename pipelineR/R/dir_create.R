@@ -12,7 +12,7 @@
 dir_create <- function(R_proj = TRUE, dir = NULL){
   ### todo
   ## create R project to current directory.
-  ##
+  ## this code maybe run only on Rstudio.
   proj_create_day <- Sys.Date()
 
   if(R_proj){
